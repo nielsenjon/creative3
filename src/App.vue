@@ -12,7 +12,9 @@
     </div>
     <hr>
     <router-view />
-    <div class="footer">GitHub link Goes Here</div>
+    <div class="footer">
+      <a href="https://github.com/nielsenjon/creative3.git">Github Link to Repository</a>
+    </div>
   </div>
 </template>
 
@@ -25,6 +27,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a {
+  color: green;
 }
 
 hr {
@@ -50,7 +56,7 @@ body {
   background-color: /*#4D6E48 */#0e5135;
 }
 
-p, h2 {
+p {
   margin: 25px 25px 10px 25px;
 }
 

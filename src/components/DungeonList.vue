@@ -5,6 +5,7 @@
       <div class="info">
         <img :src="'/images/' +dungeon.image">
         <ul>
+          <li><h2>{{dungeon.game}}</h2></li>
           <li><h3>{{dungeon.name}}</h3></li>
           <li>Boss: {{dungeon.boss}}</li>
           <li>Item(s): {{dungeon.items}}</li>
