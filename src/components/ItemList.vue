@@ -44,7 +44,7 @@ export default {
   margin-bottom: 20px;
 }
 .item img {
-  width: 100%;
+  width: 70%;
 }
 .info {
   text-align: center;
@@ -65,6 +65,10 @@ export default {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  }
+  .item img {
+    width: 45%;
+
   }
 }
 </style>

@@ -8,7 +8,7 @@
     </div>
   </div>
   <h1 class="subpage-title"> Items </h1>
-  <ItemList :items="listItems" />
+  <ItemList :items="listItemsByName" />
 </div>
 </template>
 
@@ -26,8 +26,8 @@ export default {
     }
   },
   computed: {
-    listItems() {
-      return this.$root.$data.items.filter(item => item.game.toLowerCase().search(this.searchText.toLowerCase()) >= 0);
+    listItemsByName() {
+      return this.$root.$data.items.filter(item => item.items.toLowerCase().search(this.searchText.toLowerCase()) >= 0)
     }
   }
 }
@@ -41,8 +41,6 @@ p {
 
 .wrapper {
   display: flex;
-  padding-left: 10px;
-  padding-top: 10px;
 }
 
 .search {
