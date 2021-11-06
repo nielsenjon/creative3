@@ -39,6 +39,10 @@ export default {
   width: 100%;
 }
 
+p {
+  margin: 25px 25px 10px 25px;
+}
+
 /* Desktop Styles */
 @media only screen and (min-width: 801px) {
 .about-us-pics-item {

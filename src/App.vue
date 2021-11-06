@@ -57,10 +57,6 @@ body {
   background-color: /*#4D6E48 */#0e5135;
 }
 
-p {
-  margin: 25px 25px 10px 25px;
-}
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
