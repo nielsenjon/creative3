@@ -41,6 +41,8 @@ p {
 
 .wrapper {
   display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .search {
