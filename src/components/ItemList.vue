@@ -4,7 +4,7 @@
     <div class="item" v-for="item in items" :key="item.id">
       <div class="info">
         <img :src="'/images/' +item.photo">
-        <h3>{{item.items}}</h3>
+        <h3>{{item.name}}</h3>
         <p>{{item.game}}</p>
       </div>
     </div>

@@ -27,7 +27,7 @@ export default {
   },
   computed: {
     listItemsByName() {
-      return this.$root.$data.items.filter(item => item.items.toLowerCase().search(this.searchText.toLowerCase()) >= 0)
+      return this.$root.$data.items.filter(item => item.name.toLowerCase().search(this.searchText.toLowerCase()) >= 0)
     }
   }
 }
