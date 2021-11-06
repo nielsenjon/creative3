@@ -1,7 +1,7 @@
 let mock2 = [
   {
   id: 1,
-  game: "LOZ, OoT",
+  game: "LOZ, OOT",
   items: "Boomerang",
   photo: "boomerang.png",
   },
@@ -13,9 +13,9 @@ let mock2 = [
   },
   {
   id: 3,
-  game: "LOZ, OoT",
-  items: "Bomb",
-  photo: "bomb.png",
+  game: "LOZ, OOT",
+  items: "Bow",
+  photo: "bow.png",
   },
 ]
 
